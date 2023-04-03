@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/MarPad.js" tpye="text/javascript"></script>
+    <link rel="shortcut icon" href="img/icons8-globe-16.png" type="image/x-icon">
+    <title>Margin and Padding</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="Back.html">Background</a>
+        <a href="Font.html">Font</a>
+        <a href="MarPad.html">Margin-Padding</a>
+        <a href="WidHei.html">Width-Height</a>
+        <a href="Border.html">Border</a>
+    </header>
+    <main class="Main-MarPad">
+        <div class="Ranges-inputs-MarPad">
+            <h2>Margin:</h2>
+            <div class="Margin-div">
+            <label for="Margintop">Margin-top</label>
+            <input type="range" name="Margintop" id="Margintop" oninput="MarPad()" min="0" max="350" value="0" step="1">
+            <output id="output1" for="Margintop">0</output>
+
+            <label for="Marginleft">Margin-left</label>
+            <input type="range" name="Marginleft" id="Marginleft" oninput="MarPad()" min="0" max="350" value="0" step="1">
+            <output id="output2" for="Marginleft">0</output><br>
+
+            <label for="Marginbottom">Margin-bottom</label>
+            <input type="range" name="Marginbottom" id="Marginbottom" oninput="MarPad()" min="0" max="350" value="0" step="1">
+            <output id="output3" for="Marginbottom">0</output>
+
+            <label for="Marginright">Margin-right</label>
+            <input type="range" name="Marginright" id="Marginright" oninput="MarPad()" min="0" max="350" value="0" step="1">
+            <output id="output4" for="Marginright">0</output>
+            </div>
+            <h2 class="h2-padding">Padding:</h2>
+            <div class="Padding-div">
+            <label for="Paddingtop">Padding-top</label>
+            <input type="range" name="Paddingtop" id="Paddingtop" oninput="MarPad()" min="0" max="250" value="0" step="1">
+            <output id="output5" for="Paddingtop">0</output>
+
+            <label for="Paddingleft">Padding-left</label>
+            <input type="range" name="Paddingleft" id="Paddingleft" oninput="MarPad()" min="0" max="350" value="0" step="1">
+            <output id="output6" for="Paddingleft">0</output><br>
+
+            <label for="Paddingbottom">Padding-bottom</label>
+            <input type="range" name="Paddingbottom" id="Paddingbottom" oninput="MarPad()" min="0" max="250" value="0" step="1">
+            <output id="output7" for="Paddingbottom">0</output>
+
+            <label for="Paddingright">Padding-right</label>
+            <input type="range" name="Paddingright" id="Paddingright" oninput="MarPad()" min="0" max="350" value="0" step="1">
+            <output id="output8" for="Paddingright">0</output>
+            </div>
+        </div>
+        <div class="conteiner-MarPadding">
+            <div class="conteiner-MarPadding-principal" id="div-principal">
+                <h1 id="conteiner-color">Hello World</h1>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Rodrigo Rolim</p>
+    </footer>
+</body>
+</html>

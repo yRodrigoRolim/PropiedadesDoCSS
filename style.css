@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding: 20px 15%;
+    justify-content: space-around;
+    background-color: #C8FFBE;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.113);
+}
+header a,footer p{
+    color: #623B5A;
+    font-size: 22px;
+    margin-left: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header a:hover,footer p:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.113);
+    width: 70%;
+    padding: 2vw 3vw 20px 3vw;
+    margin: 0px auto;
+}
+.main-index{
+    display: block;
+}
+.main-index h1{
+    color: #623B5A;
+}
+.main-index h3{
+    color: #89608E;
+    margin-bottom: 1vw;
+}
+.main-index img{
+    border-radius: 22px;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.113);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px 15%;
+    justify-content: space-around;
+    background-color: #C8FFBE;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.113);
+}
+.main-background{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+.main-background .section-1-background{
+    text-align: center;
+}
+.main-background .section-1-background h3{
+    margin-bottom: 10px;
+    font-weight: 5  00;
+}
+.main-background .section-1-background .rangeInputs{
+    border-radius: 5px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    width: 25vw;
+}
+
+.main-background .section-1-background #rangeInput{
+    background: linear-gradient(to right, black, red, white)
+}
+.main-background .section-1-background #rangeInput2{
+    background: linear-gradient(to right, black, green, white)
+}
+.main-background .section-1-background #rangeInput3{
+    background: linear-gradient(to right, black, blue, white)
+}
+.main-background .section-2-background .background-color-div{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin-left: 3vw;
+    width: 30vw;
+    height: 20vw;
+    background-color: black;
+}
+button{
+    cursor: pointer;
+}
+.main-background .section-1-background .background-image h1{
+    margin-top: 30px;
+}
+.Main-MarPad{
+    display: flex;
+    flex-direction: column;
+}
+.Main-MarPad .conteiner-MarPadding{
+    margin: 60px 0px;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #A53860;
+}
+.Main-MarPad .conteiner-MarPadding .conteiner-MarPadding-principal{
+    color: white;
+    width: 500px;
+    height: 250px;
+    background-color: #4C3B4D;
+}
+.Main-MarPad .Ranges-inputs-MarPad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.main-WidHei{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-WidHei .WidHei-Div{
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #4C3B4D;
+}
+.main-WidHei .WidHei-principal{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.Ranges-inputs-MarPad h2{
+    margin: 10px 0px 10px 0px;
+}
+
+.main-WidHei .WidHei-Div .WidHei-Div-principal{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    background-color: #A53860;
+}
+.Ranges-inputs-MarPad .Margin-div,.Ranges-inputs-MarPad .Padding-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main-font{
+    display: flex;
+    flex-direction: column;
+}
+.font-text-preview{
+    border: 3px solid #A53860;
+    text-align: center;
+    font-size: 50px;
+}
+.main-font span font{
+    text-align: center;
+}
+.main-font input{
+    height: 30px;
+    width: 100px;
+    border: 3px solid #A53860;
+}
+.main-font .font h1{
+    margin-bottom: 0px;
+}
+.main-font .font a{
+    font-size: 22px;
+    color: blue;
+}
+.main-border{
+    display: flex;
+    justify-content: space-around;
+}
+.div-content-border{
+    border: 3px solid #A53860;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 30vw;
+}
+.div-preview-border{
+    width: 25vw;
+    height: 25vw;
+    border: 3px solid black;
+}

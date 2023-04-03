@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/WidHei.js" tpye="text/javascript"></script>
+    <link rel="shortcut icon" href="img/icons8-globe-16.png" type="image/x-icon">
+    <title>Width and Height</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="Back.html">Background</a>
+        <a href="Font.html">Font</a>
+        <a href="MarPad.html">Margin-Padding</a>
+        <a href="WidHei.html">Width-Height</a>
+        <a href="Border.html">Border</a>
+    </header>
+    <main class="main-WidHei">
+        <div class="WidHei-principal">
+            <div>
+            <label for="Width"><h1>Width:</h1></label>
+            <input type="range" name="Width" id="Width" oninput="myFunc2()" min="300" max="1100" value="500" step="1"><br>
+            <output id="output1" for="Width">500px</output><br>
+            </div>
+            <div>
+            <label for="Height"><h1>Height:</h1></label>
+            <input type="range" name="Height" id="Height" oninput="myFunc2()" min="100" max="550" value="300" step="1"><br>
+            <output id="output2" for="Height">300px</output><br>
+            </div>
+        </div>
+        <div class="WidHei-Div">
+            <div class="WidHei-Div-principal" id="div1">Hello World</div>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Rodrigo Rolim</p>
+    </footer>
+</body>
+</html>

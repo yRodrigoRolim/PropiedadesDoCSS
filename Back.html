@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/Back.js" tpye="text/javascript"></script>
+    <link rel="shortcut icon" href="img/icons8-globe-16.png" type="image/x-icon">
+    <title>Background</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="Back.html">Background</a>
+        <a href="Font.html">Font</a>
+        <a href="MarPad.html">Margin-Padding</a>
+        <a href="WidHei.html">Width-Height</a>
+        <a href="Border.html">Border</a>
+    </header>
+
+    <main class="main-background">
+        <section class="section-1-background">
+            <div>
+                <h1>Background-Color</h1>
+                <h3>Altere a cor da div ao lado usando os inputs ao lado</h3>
+            </div>
+            <div>
+                <input type="range" min="0" max="255" value="0" step="1" list="tickmarks" id="rangeInput" class="rangeInputs" oninput="changeColor()"><br>
+                <output id="output" for="rangeInput">0</output>
+            </div>
+            <div>
+                <input type="range" min="0" max="255" value="0" step="1" list="tickmarks" id="rangeInput2" class="rangeInputs" oninput="changeColor()"><br>
+                <output id="output1" for="rangeInput2">0</output>
+            </div>
+            <div>
+                <input type="range" min="0" max="255" value="0" step="1" list="tickmarks" id="rangeInput3" class="rangeInputs" oninput="changeColor()"><br>
+                <output id="output2" for="rangeInput3">0</output>
+            </div>
+            <div>
+                <input oninput="changeColorinput()" type="color" name="color-back" id="color-back">
+            </div>
+            <div>
+
+            </div>
+        </section>
+        <section class="section-2-background">
+            <div class="background-color-div" id="background-color-div">RGB(0,0,0)</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por Rodrigo Rolim</p>
+    </footer>
+</body>
+</html>

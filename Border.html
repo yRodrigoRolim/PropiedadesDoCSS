@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons8-globe-16.png" type="image/x-icon">
+    <title>Border</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="Back.html">Background</a>
+        <a href="Font.html">Font</a>
+        <a href="MarPad.html">Margin-Padding</a>
+        <a href="WidHei.html">Width-Height</a>
+        <a href="Border.html">Border</a>
+    </header>
+    <main class="main-border">
+        <div class="config-border">
+            <h1>
+                Configurações de borda:
+            </h1>
+            <br>
+            <h2>
+                Tamanho da borda:
+            </h2>
+            <input type="range" min="1" max="10" value="3" step="1" id="tmborder" oninput="BorderConfig()"><br>
+            <span id="span1"> tamanho: 3px</span><br><br>
+            <h2>
+                Tipo de borda:
+            </h2>
+            <select class="selectbordertype" id="selectbordertype" onchange="BorderConfig()">
+                <option value="solid">solid</option>
+                <option value="dashed">dashed</option>
+                <option value="dotted">dotted</option>
+            </select>
+            <br><br>
+            <h2>Color:</h2>
+            <input type="color" name="border-color" id="border-color" oninput="BorderConfig()"><br><br>
+            <h2>Border-radius:</h2>
+            <input type="range" min="1" max="300" step="1" value="3" id="rdborder" oninput="BorderConfig()"><br>
+            <span id="span2"> Border-radius: 0</span><br><br>
+        </div>
+        <div class="div-content-border">
+            <div class="div-preview-border" id="div-preview-border"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Feito por Rodrigo Rolim</p>
+    </footer>
+    <script src="js/border.js" tpye="text/javascript"></script>
+</body>
+</html>
